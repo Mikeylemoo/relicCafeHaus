@@ -1,3 +1,60 @@
+/* General styles */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: black;
+    background-color: #1a1a1a;
+    margin: 0;
+}
+
+/* Header styles */
+
+header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav ul {
+    margin-left: 0em;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+nav li {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    font-family: sans-serif;
+    color: seashell;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color: seashell;
+}
+h1 {
+    color: seashell;
+}
+
+/* main section style */
+
+section #coffee-image {
+    background: url("");
 }
