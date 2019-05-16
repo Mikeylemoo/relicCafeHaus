@@ -9,6 +9,14 @@ body {
     margin: 0;
 }
 
+.selected {
+    color: gray;
+}
+
+.hoverClass:hover {
+    color: gray;
+}
+
 /* Header styles */
 
 header {
@@ -72,4 +80,22 @@ section {
     background-position: center;
     width: 100%;
     height: 500px;
+}
+
+#flex-page-info {
+    display: flex;
+    color: seashell;
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+}
+
+.page-info {
+    margin: 1em;
+}
+
+footer {
+    text-align: center;
+    color: seashell;
+    margin: 2em;
 }
