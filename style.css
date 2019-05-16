@@ -20,6 +20,7 @@ header {
     margin: 0;
     width: 100%;
     height: 10em;
+
 }
 
 nav {
@@ -52,6 +53,7 @@ nav li a {
 }
 h1 {
     color: seashell;
+    font-family: sans-serif;
 }
 
 /* main section style */
@@ -65,7 +67,7 @@ section {
 }
 
 #coffee-image {
-    background-image: url("image/cafe.jpg");
+    background-image: url("image/tamper.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
