@@ -182,3 +182,56 @@ footer {
  #map-div {
      width: 75%;
  }
+
+ /* menu page styling */
+
+ #menu-image {
+    background-image: url("image/dinner.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+#menu-image2 {
+    background-image: url("image/menu-2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+#menu-image3 {
+    background-image: url("image/menu-3.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+.page-info a {
+    color: seashell;
+    text-decoration: none;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    /* -webkit-animation-name: fade;
+    -webkit-animation-duration: 7s;  */
+    animation-name: fade;
+    animation-duration: 7s;
+    animation-timing-function: ease-out;
+}
+
+/* @-webkit-keyframes fade {
+    from {opacity: .6}
+    to {opacity: 1;}
+} */
+
+@keyframes fade {
+    from {opacity: .6}
+    to {opacity: 1}
+}
