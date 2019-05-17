@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Relic Coffee Haus</title>
+    <script type="text/javascript" defer src="script.js"></script>
+</script>
 </head>
 <body>
     <header>
@@ -12,7 +14,7 @@
         <nav>
             <ul>
                 <li><a href="index.html" class="hoverClass">Home</a></li>
-                <li><a href="locations.html" class="selected hoverClass">Locations</a></li>
+                <li><a href="locations.html" class="selected hoverClass">Location</a></li>
                 <li><a href="menu.html" class="hoverClass">Menu</a></li>
                 <li><a href="contact.html" class="hoverClass">Contact</a></li>
             </ul>
@@ -20,18 +22,15 @@
     </header>
     <main>
         <section>
-            <div  id="coffee-image"> 
+            <div  id="map-div"> 
                 
             </div>
         </section>
         <section id = "flex-page-info">
-            <div class = "page-info">
-                <h2>Sip and Socialise</h2>
-                <p>So here’s the plan guys. We bring the best of New Zealand’s café culture to Sheffield, where coffee takes centre stage and only top quality, tasty food makes its way through the serving hatch.</p>
-            </div>
-            <div class = "page-info">
-                <h2>It's a simple recipe.</h2>
-                <p>You’ll find us at Sellers Wheel and Westfield Terrace, delivering our simple Kiwi recipe in two slightly different ways.</p>
+            <div id = "map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.7916729430276!2d-1.4755623194739886!3d53.3648831800808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879828a24685dc5%3A0xfcaf087ed0897a43!2s23+Fieldhead+Rd%2C+Sheffield+S8+0ZX!5e0!3m2!1sen!2suk!4v1558107018460!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <h2>Where are we?</h2>
+                <p>Well, see the map above! We're located at 23 FieldHead Road in Sheffield. It's a short bus ride from the city center, and perfectly placed in the middle of the culturally rich triangle of London Road, AbbeyDale Road and Chesterfield Road. </p>
             </div>
         </section>
     </main>
