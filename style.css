@@ -16,6 +16,10 @@ body {
     
     background-color: #1a1a1a;
     margin: 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center; */
 }
 
 .selected {
@@ -313,4 +317,18 @@ button {
 @keyframes fade {
     from {opacity: .6}
     to {opacity: 1}
+}
+
+
+/* media query styling */
+
+@media (min-width: 576px) {
+    nav  {
+        max-width: 90%;
+    }
+
+    #flex-page-info {
+        max-width: 75%;
+        margin: auto;
+    }
 }
