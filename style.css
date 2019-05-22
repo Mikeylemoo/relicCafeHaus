@@ -332,3 +332,35 @@ button {
         margin: auto;
     }
 }
+
+@media (min-width: 710px) {
+    nav {
+        max-width: 75%;
+    }
+
+    #flex-page-info {
+        max-width: 65%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 775px) {
+
+    header {
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 2em;
+        height: 6em;
+    }
+
+    nav, header h1 {
+        max-width: 50%;
+    }
+
+    #flex-page-info {
+        max-width: 65%;
+        margin: auto;
+    }
+
+   
+}
