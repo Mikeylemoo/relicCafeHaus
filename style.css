@@ -295,7 +295,7 @@ label {
 
 input, textarea {
     font: sans-serif;
-    width: 75%;
+    width: 100%;
     height: 2em;
     border: 1px solid #999;
 }
@@ -311,11 +311,12 @@ textarea {
 
 button {
     margin: .5em;
+    padding: 0.8em;
 }
 
 .contact-form {
     margin: 1em 0;
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
