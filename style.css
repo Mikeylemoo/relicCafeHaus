@@ -360,9 +360,18 @@ button {
 }
 
 @media (min-width: 534px) {
-    #flex-page-info {
-        max-width: 75%;
+    .page-info {
+        max-width: 50%;
         margin: auto;
+        padding: 1em;
+    }
+
+    #flex-page-info {
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
@@ -377,11 +386,11 @@ button {
     }
 }
 
-@media (min-width: 775px) {
+@media (min-width: 768px) {
 
     header {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         margin: 2em;
         height: 4.5em;
     }
@@ -390,10 +399,32 @@ button {
         max-width: 50%;
     }
 
-    #flex-page-info {
-        max-width: 65%;
-        margin: auto;
+    nav {
+        font-size: 1.35em;
     }
 
+
+    .slideshow-container {
+        max-width: 100%;
+    }
+
+    #coffee-image, #interior-image, #drink-image {
+        height: 400px;
+    }
+
+
+    
+
+    .page-info {
+        width: 50%;
+    }
+
+    footer {
+        margin-top: 6em;
+    }
+
+
+
+    
    
 }
