@@ -360,18 +360,23 @@ button {
 }
 
 @media (min-width: 534px) {
-    .page-info {
-        max-width: 50%;
-        margin: auto;
-        padding: 1em;
-    }
+    
 
-    #flex-page-info {
+     section#flex-page-info {
         max-width: 100%;
-        margin: auto;
+        /* margin: auto; */
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .page-info {
+        max-width: 50%;
+        margin: 0;
+        padding: 1em;
+        flex: 1;
+        
     }
 }
 
