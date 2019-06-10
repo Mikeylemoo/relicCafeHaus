@@ -359,6 +359,14 @@ button {
     }
 } */
 
+@media (min-width: 545px) {
+    div.page-info p {
+        width: 65%;
+        margin: auto;
+        text-align: center;
+    }
+}
+
 @media (min-width: 576px) {
     nav  {
         max-width: 90%;
@@ -392,7 +400,7 @@ button {
     }
 
     .form-wrapper {
-        /* width: 75%; */
+        width: 75%;
         margin: auto;
     }
 }
@@ -444,11 +452,18 @@ button {
 
     #contact {
         width: 100%;
+        height: 400px;
     }
     
-
+    div#menu-image.fade.fade.mySlides, div#menu-image2.fade.fade.mySlides, div#menu-image3.fade.fade.mySlides {
+        height: 400px;
+    }
     .page-info {
         width: 50%;
+    }
+
+    a#menu-link.hoverClass {
+        font-size: 1.5em;
     }
 
     footer {
@@ -459,8 +474,56 @@ button {
         margin-top: 2em;
     }
 
+    section#flex-page-info {
+        justify-content: space-around;
+        margin-top: 4em;
+        margin-bottom: 8em;
+    }
+
+
+    div#location-text {
+        width: 50%;
+    }
+
+    div.form-wrapper {
+        width: 70%;
+    }
+
 
 
     
    
+}
+
+@media (min-width: 900px) {
+    div.form-wrapper {
+        width: 60%;
+    }
+
+    nav  {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0.5em;
+    }
+
+    div#contact h1 {
+        font-size: 3rem;
+        color: black;
+        display: none;
+    }
+
+    div#location-text {
+        width: 40%;
+    }
+
+    div#map {
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    div.form-wrapper {
+        width: 35%;
+    }
 }
