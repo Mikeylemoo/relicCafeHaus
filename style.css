@@ -513,11 +513,49 @@ button {
     }
 
     div#location-text {
-        width: 40%;
+        width: 30%;
+        height: 10em;
     }
 
     div#map {
-        width: 50%;
+        width: 30%;
+        height: 10em;
+    }
+
+    .map-wrapper {
+        height: 20em;
+    }
+
+    #footer-spacer {
+        height: 13em;
+    }
+
+    #page-heading {
+        font-size: 3em;
+    }
+
+    nav {
+        font-size: 1.75em;
+    }
+
+    div h2 {
+        font-size: 1.7em;
+    }
+
+    div p {
+        font-size: 1.2em;
+    }
+
+    .page-info {
+        width: 25%;
+    }
+
+    #coffee-image, #interior-image, #drink-image {
+        height: 500px;
+    }
+
+    #contact {
+        height: 500px;
     }
 
 }
