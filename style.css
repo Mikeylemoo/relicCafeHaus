@@ -90,7 +90,21 @@ nav li a {
     font-family: sans-serif;
 }
 
+li {
+
+}
+
+
 /* main section style */
+
+.page-info h4 {
+    font-size: 1.2em;
+    
+}
+
+.page-info h4 span {
+    border-bottom: 2px solid #ccffff;
+}
 
 /* body {
     background-image: url("image/coffee.jpg");
@@ -181,6 +195,21 @@ section {
     margin: 1em;
 }
 
+#opening-times {
+    display: flex;
+    flex-direction: column;
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+    /* text-align: left; */
+}
+
+
+
+
 footer {
     display: flex;
     flex-direction: column;
@@ -197,6 +226,13 @@ footer {
 #footer-spacer {
     height: 4.5em;
 }
+
+/* #opening-times {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
 
 /*location page styling*/
 
@@ -360,11 +396,11 @@ button {
 } */
 
 @media (min-width: 545px) {
-    div.page-info p {
+     div.page-info p { 
         width: 65%;
         margin: auto;
         text-align: center;
-    }
+    } 
 }
 
 @media (min-width: 576px) {
@@ -392,7 +428,7 @@ button {
     }
     
     .page-info {
-        /* width: 50%; */
+        width: 360px;
         margin: 0;
         padding: 1em;
         flex-grow: 1;
@@ -458,9 +494,9 @@ button {
     div#menu-image.fade.fade.mySlides, div#menu-image2.fade.fade.mySlides, div#menu-image3.fade.fade.mySlides {
         height: 400px;
     }
-    .page-info {
+    /* .page-info {
         width: 50%;
-    }
+    } */
 
     a#menu-link.hoverClass {
         font-size: 1.5em;
@@ -543,11 +579,11 @@ button {
     }
 
     div p {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 
     .page-info {
-        width: 25%;
+        flex-basis: 400px;
     }
 
     #coffee-image, #interior-image, #drink-image {
@@ -558,10 +594,25 @@ button {
         height: 500px;
     }
 
+    div#menu-image.fade.fade.mySlides, div#menu-image2.fade.fade.mySlides, div#menu-image3.fade.fade.mySlides {
+        height: 500px;
+    }
+
+    .days {
+        justify-content: space-evenly;
+        /* text-align: left; */
+    }
+
+    
+
 }
 
 @media (min-width: 1200px) {
     div.form-wrapper {
         width: 35%;
+    }
+
+    div.page-info {
+        width: 100px;
     }
 }
