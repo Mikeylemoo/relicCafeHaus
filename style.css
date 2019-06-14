@@ -604,8 +604,14 @@ button {
     }
 
     .days {
-        justify-content: space-evenly;
+        width: 75%;
+        margin: 1em auto;
+        justify-content: center;
         /* text-align: left; */
+    }
+
+    div.page-info  p.days-items {
+        width: 50%;
     }
 
     
